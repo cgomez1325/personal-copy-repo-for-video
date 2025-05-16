@@ -1,6 +1,6 @@
 ---
 title: "Linear regression"
-author: "your name here"
+author: "Chris Gomez"
 date: "insert date here"
 format:
   html:
@@ -22,9 +22,6 @@ library(gtsummary) # generating summary tables for models
 
 # abalone data from Hamilton et al. 2022
 abalone <- read_xlsx(here("data", "Abalone IMTA_growth and pH.xlsx"))
-
-# Sonadora temperature data from Alonzo, A. 2024
-sonadora <- read_csv(here("data", "Temp_SonadoraGradient_Daily.csv"))
 ```
 
 # 2. Abalone example
@@ -34,11 +31,10 @@ Data from Hamilton et al. 2022. "Integrated multi-trophic aquaculture mitigates 
 ## a. Questions and hypotheses
 
 Question: How does pH predict abalone growth (measured in change in shell surface area per day, mm^-2^ d^-1^)?  
-
 H~0~: pH does not predict abalone growth (change in shell surface area per day, mm^-2^ d^-1^).
 
 H~A~: pH predicts abalone growth (change in shell surface area per day, mm^-2^ d^-1^).
-
+jjjj
 ## b. Cleaning
 
 ```{r abalone-data-cleaning}
